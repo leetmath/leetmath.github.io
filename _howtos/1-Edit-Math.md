@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: howto
 title: "Edit Math"
 ---
 
