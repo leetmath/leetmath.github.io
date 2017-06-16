@@ -1,3 +1,8 @@
 name: Leetmath
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+collections:
+  howtos:
+    output: true
+    permalink: /howtos/:path/

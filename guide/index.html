@@ -1,0 +1,11 @@
+---
+layout: default
+title: Guide to Using Leetmath
+---
+	<h1>{{ page.title }}</h1>
+
+	<ul class="topics">
+	  {% for howto in site.howtos %}
+	    <li><a href="{{ howto.url }}" title="{{ howto.title }}">{{ howto.title }}</a></li>
+	  {% endfor %}
+	</ul>
